@@ -1,0 +1,406 @@
+{
+    "surveyquestiontypes": [
+        {
+            "id": "ad0f53fb-240b-47de-ab1d-871bbde6f973",
+            "name": "Uzavřené"
+        },
+        {
+            "id": "949d74a2-63b1-4478-82f1-e025d8bc6c8b",
+            "name": "Otevřené"
+        },
+        {
+            "id": "2a6a1731-1efa-4644-a1d8-5848e4b29ce5",
+            "name": "Škála"
+        }
+    ],
+    "surveys": [
+        {
+            "id": "910d54a9-7f2e-41ca-b811-3c600ef82fda",
+            "name": "Studentské hodnocení 2022"
+        }
+    ],
+    "surveytypes": [
+        {
+            "id": "712029b6-2dbc-4952-9d3e-e897899edf0a",
+            "name": "Kvalita výuky"
+        }
+    ],
+    "surveyquestions": [
+        {
+            "id": "5b7e4ae7-9bb9-4e2f-829b-c2763ac1092e",
+            "name": "Jak hodnotíte předmět xy",
+            "order": 1,
+            "lastchange": "2023-04-19T17:27:12",
+            "survey_id": "910d54a9-7f2e-41ca-b811-3c600ef82fda",
+            "type_id": "2a6a1731-1efa-4644-a1d8-5848e4b29ce5"
+        },
+        {
+            "id": "984120da-ab92-44bd-9389-5f47ed9b3225",
+            "name": "Jak hodnotíte výuku předmětu xy",
+            "order": 2,
+            "lastchange": "2023-04-19T17:27:12",
+            "survey_id": "910d54a9-7f2e-41ca-b811-3c600ef82fda",
+            "type_id": "949d74a2-63b1-4478-82f1-e025d8bc6c8b"
+        },
+        {
+            "id": "2b27adcc-0b7e-40c4-a430-8e0aa551ae3e",
+            "name": "Který předmět považujete za nejvíc přínosný?",
+            "order": 3,
+            "lastchange": "2023-04-19T17:27:12",
+            "survey_id": "910d54a9-7f2e-41ca-b811-3c600ef82fda",
+            "type_id": "ad0f53fb-240b-47de-ab1d-871bbde6f973"
+        }
+    ],
+    "surveyanswers": [
+        {
+            "id": "2d98f978-3c88-4101-b617-b82be51b03b2",
+            "value": "f986b8af",
+            "answered": true,
+            "expired": false,
+            "user_id": "2d9dc5ca-a4a2-11ed-b9df-0242ac120003",
+            "question_id": "5b7e4ae7-9bb9-4e2f-829b-c2763ac1092e"
+        },
+        {
+            "id": "0ab33791-b72c-41f6-9e9e-9b7c751801f6",
+            "value": "f986b8af",
+            "answered": true,
+            "expired": false,
+            "user_id": "2d9dc868-a4a2-11ed-b9df-0242ac120003",
+            "question_id": "5b7e4ae7-9bb9-4e2f-829b-c2763ac1092e"
+        },
+        {
+            "id": "54ee58dd-7075-45a5-9bb5-c0bba74a7835",
+            "value": "f986b8af",
+            "answered": true,
+            "expired": false,
+            "user_id": "2d9dc9a8-a4a2-11ed-b9df-0242ac120003",
+            "question_id": "5b7e4ae7-9bb9-4e2f-829b-c2763ac1092e"
+        },
+        {
+            "id": "33ef54c2-fe5a-4342-a6df-df14a7b05f22",
+            "value": "f986b8af",
+            "answered": true,
+            "expired": false,
+            "user_id": "2d9dcbec-a4a2-11ed-b9df-0242ac120003",
+            "question_id": "5b7e4ae7-9bb9-4e2f-829b-c2763ac1092e"
+        },
+        {
+            "id": "934971bb-133c-4531-9822-9102482b4b38",
+            "value": "f986b8af",
+            "answered": true,
+            "expired": false,
+            "user_id": "89d1e724-ae0f-11ed-9bd8-0242ac110002",
+            "question_id": "5b7e4ae7-9bb9-4e2f-829b-c2763ac1092e"
+        },
+        {
+            "id": "7d3f4f60-bac8-4d93-9820-8038c93c1037",
+            "value": "f986b8af",
+            "answered": true,
+            "expired": false,
+            "user_id": "89d1f34a-ae0f-11ed-9bd8-0242ac110002",
+            "question_id": "5b7e4ae7-9bb9-4e2f-829b-c2763ac1092e"
+        },
+        {
+            "id": "182fc2b4-19df-4997-9b49-2d854a80af74",
+            "value": "f986b8af",
+            "answered": true,
+            "expired": false,
+            "user_id": "89d1f3cc-ae0f-11ed-9bd8-0242ac110002",
+            "question_id": "5b7e4ae7-9bb9-4e2f-829b-c2763ac1092e"
+        },
+        {
+            "id": "9e2054c2-03f0-4d1f-b487-59b796461f3a",
+            "value": "f986b8af",
+            "answered": true,
+            "expired": false,
+            "user_id": "89d1f430-ae0f-11ed-9bd8-0242ac110002",
+            "question_id": "5b7e4ae7-9bb9-4e2f-829b-c2763ac1092e"
+        },
+        {
+            "id": "972e5dca-b112-469c-b0ff-5b6a3d92e48e",
+            "value": "f986b8af",
+            "answered": true,
+            "expired": false,
+            "user_id": "89d1f48a-ae0f-11ed-9bd8-0242ac110002",
+            "question_id": "5b7e4ae7-9bb9-4e2f-829b-c2763ac1092e"
+        },
+        {
+            "id": "e9f79dae-ee9a-4644-bfb2-2135b97fad3f",
+            "value": "f986b8af",
+            "answered": true,
+            "expired": false,
+            "user_id": "89d1f4e4-ae0f-11ed-9bd8-0242ac110002",
+            "question_id": "5b7e4ae7-9bb9-4e2f-829b-c2763ac1092e"
+        },
+        {
+            "id": "deb981ba-87fa-48f4-9eb3-294a0cac0761",
+            "value": "f986b8af",
+            "answered": true,
+            "expired": false,
+            "user_id": "89d1f534-ae0f-11ed-9bd8-0242ac110002",
+            "question_id": "5b7e4ae7-9bb9-4e2f-829b-c2763ac1092e"
+        },
+        {
+            "id": "60b141f6-923f-453f-a18f-41c49de59732",
+            "value": "f986b8af",
+            "answered": true,
+            "expired": false,
+            "user_id": "89d1f58e-ae0f-11ed-9bd8-0242ac110002",
+            "question_id": "5b7e4ae7-9bb9-4e2f-829b-c2763ac1092e"
+        },
+        {
+            "id": "a7199ba2-bda8-4d5c-9e10-cc9c1813ef89",
+            "value": "f986b8af",
+            "answered": true,
+            "expired": false,
+            "user_id": "89d1f5de-ae0f-11ed-9bd8-0242ac110002",
+            "question_id": "5b7e4ae7-9bb9-4e2f-829b-c2763ac1092e"
+        },
+        {
+            "id": "73bae09f-ead6-41a8-ae77-71951adb55ff",
+            "value": "f986b8af",
+            "answered": true,
+            "expired": false,
+            "user_id": "89d1f638-ae0f-11ed-9bd8-0242ac110002",
+            "question_id": "5b7e4ae7-9bb9-4e2f-829b-c2763ac1092e"
+        },
+        {
+            "id": "04d598be-4da0-4300-ae88-115ad4e5801b",
+            "value": "a4a0bd3b",
+            "answered": true,
+            "expired": false,
+            "user_id": "2d9dc5ca-a4a2-11ed-b9df-0242ac120003",
+            "question_id": "984120da-ab92-44bd-9389-5f47ed9b3225"
+        },
+        {
+            "id": "59ca7483-ddc7-4ca0-869f-ca4124258361",
+            "value": "a4a0bd3b",
+            "answered": true,
+            "expired": false,
+            "user_id": "2d9dc868-a4a2-11ed-b9df-0242ac120003",
+            "question_id": "984120da-ab92-44bd-9389-5f47ed9b3225"
+        },
+        {
+            "id": "bb19b92f-67d3-4b9f-b9a9-16256012dbe6",
+            "value": "a4a0bd3b",
+            "answered": true,
+            "expired": false,
+            "user_id": "2d9dc9a8-a4a2-11ed-b9df-0242ac120003",
+            "question_id": "984120da-ab92-44bd-9389-5f47ed9b3225"
+        },
+        {
+            "id": "d8dedf61-6c05-4e2c-b531-86aea5de6567",
+            "value": "a4a0bd3b",
+            "answered": true,
+            "expired": false,
+            "user_id": "2d9dcbec-a4a2-11ed-b9df-0242ac120003",
+            "question_id": "984120da-ab92-44bd-9389-5f47ed9b3225"
+        },
+        {
+            "id": "1073df90-b87d-4773-bf67-c76b0741eef4",
+            "value": "a4a0bd3b",
+            "answered": true,
+            "expired": false,
+            "user_id": "89d1e724-ae0f-11ed-9bd8-0242ac110002",
+            "question_id": "984120da-ab92-44bd-9389-5f47ed9b3225"
+        },
+        {
+            "id": "3b521156-2e80-4ff0-81c3-edf1dbb7917f",
+            "value": "a4a0bd3b",
+            "answered": true,
+            "expired": false,
+            "user_id": "89d1f34a-ae0f-11ed-9bd8-0242ac110002",
+            "question_id": "984120da-ab92-44bd-9389-5f47ed9b3225"
+        },
+        {
+            "id": "4a91bec9-8ea4-4813-80c2-b333c003a090",
+            "value": "a4a0bd3b",
+            "answered": true,
+            "expired": false,
+            "user_id": "89d1f3cc-ae0f-11ed-9bd8-0242ac110002",
+            "question_id": "984120da-ab92-44bd-9389-5f47ed9b3225"
+        },
+        {
+            "id": "f2c1e2c3-2848-47ce-b7e9-67f77fd14cdc",
+            "value": "a4a0bd3b",
+            "answered": true,
+            "expired": false,
+            "user_id": "89d1f430-ae0f-11ed-9bd8-0242ac110002",
+            "question_id": "984120da-ab92-44bd-9389-5f47ed9b3225"
+        },
+        {
+            "id": "ff447e8f-3e35-4d45-8041-8ae749a33bcb",
+            "value": "a4a0bd3b",
+            "answered": true,
+            "expired": false,
+            "user_id": "89d1f48a-ae0f-11ed-9bd8-0242ac110002",
+            "question_id": "984120da-ab92-44bd-9389-5f47ed9b3225"
+        },
+        {
+            "id": "91751d93-6b90-4df4-9c26-a8df38269bbe",
+            "value": "a4a0bd3b",
+            "answered": true,
+            "expired": false,
+            "user_id": "89d1f4e4-ae0f-11ed-9bd8-0242ac110002",
+            "question_id": "984120da-ab92-44bd-9389-5f47ed9b3225"
+        },
+        {
+            "id": "eb914f60-301a-4bad-81f6-a9a0ec94b6e8",
+            "value": "a4a0bd3b",
+            "answered": true,
+            "expired": false,
+            "user_id": "89d1f534-ae0f-11ed-9bd8-0242ac110002",
+            "question_id": "984120da-ab92-44bd-9389-5f47ed9b3225"
+        },
+        {
+            "id": "3ef5b469-9d4e-44fb-abf9-e33fab4d3941",
+            "value": "a4a0bd3b",
+            "answered": true,
+            "expired": false,
+            "user_id": "89d1f58e-ae0f-11ed-9bd8-0242ac110002",
+            "question_id": "984120da-ab92-44bd-9389-5f47ed9b3225"
+        },
+        {
+            "id": "c9e50753-c8d9-44ff-b062-3065c598155d",
+            "value": "a4a0bd3b",
+            "answered": true,
+            "expired": false,
+            "user_id": "89d1f5de-ae0f-11ed-9bd8-0242ac110002",
+            "question_id": "984120da-ab92-44bd-9389-5f47ed9b3225"
+        },
+        {
+            "id": "b1e8b9ed-64b3-4865-ab59-cd836dd6f968",
+            "value": "a4a0bd3b",
+            "answered": true,
+            "expired": false,
+            "user_id": "89d1f638-ae0f-11ed-9bd8-0242ac110002",
+            "question_id": "984120da-ab92-44bd-9389-5f47ed9b3225"
+        },
+        {
+            "id": "46e8923e-8ed0-4210-bbb9-8f644cc696e8",
+            "value": "dd665abf",
+            "answered": true,
+            "expired": false,
+            "user_id": "2d9dc5ca-a4a2-11ed-b9df-0242ac120003",
+            "question_id": "2b27adcc-0b7e-40c4-a430-8e0aa551ae3e"
+        },
+        {
+            "id": "1d51bb87-9512-43df-b2ff-26262e7cc8ca",
+            "value": "dd665abf",
+            "answered": true,
+            "expired": false,
+            "user_id": "2d9dc868-a4a2-11ed-b9df-0242ac120003",
+            "question_id": "2b27adcc-0b7e-40c4-a430-8e0aa551ae3e"
+        },
+        {
+            "id": "daa402e5-ce9d-473d-806d-4104464945b5",
+            "value": "dd665abf",
+            "answered": true,
+            "expired": false,
+            "user_id": "2d9dc9a8-a4a2-11ed-b9df-0242ac120003",
+            "question_id": "2b27adcc-0b7e-40c4-a430-8e0aa551ae3e"
+        },
+        {
+            "id": "bf8ea10d-f7a4-4e5c-8d80-626a924eaf76",
+            "value": "dd665abf",
+            "answered": true,
+            "expired": false,
+            "user_id": "2d9dcbec-a4a2-11ed-b9df-0242ac120003",
+            "question_id": "2b27adcc-0b7e-40c4-a430-8e0aa551ae3e"
+        },
+        {
+            "id": "cbff0c61-af11-4bb1-a196-69e27063a17e",
+            "value": "dd665abf",
+            "answered": true,
+            "expired": false,
+            "user_id": "89d1e724-ae0f-11ed-9bd8-0242ac110002",
+            "question_id": "2b27adcc-0b7e-40c4-a430-8e0aa551ae3e"
+        },
+        {
+            "id": "2a4a7bae-829f-4ee6-a162-c71fb5296d18",
+            "value": "dd665abf",
+            "answered": true,
+            "expired": false,
+            "user_id": "89d1f34a-ae0f-11ed-9bd8-0242ac110002",
+            "question_id": "2b27adcc-0b7e-40c4-a430-8e0aa551ae3e"
+        },
+        {
+            "id": "f3aabf41-8949-499a-a2f9-e3238789b509",
+            "value": "dd665abf",
+            "answered": true,
+            "expired": false,
+            "user_id": "89d1f3cc-ae0f-11ed-9bd8-0242ac110002",
+            "question_id": "2b27adcc-0b7e-40c4-a430-8e0aa551ae3e"
+        },
+        {
+            "id": "68fbc1e3-48a6-4590-b8ba-8982f19cd3ac",
+            "value": "dd665abf",
+            "answered": true,
+            "expired": false,
+            "user_id": "89d1f430-ae0f-11ed-9bd8-0242ac110002",
+            "question_id": "2b27adcc-0b7e-40c4-a430-8e0aa551ae3e"
+        },
+        {
+            "id": "04dd2838-72fb-4e7d-a83b-cb65dd7db6e6",
+            "value": "dd665abf",
+            "answered": true,
+            "expired": false,
+            "user_id": "89d1f48a-ae0f-11ed-9bd8-0242ac110002",
+            "question_id": "2b27adcc-0b7e-40c4-a430-8e0aa551ae3e"
+        },
+        {
+            "id": "bc8ac38f-9106-4050-8e12-f158e1f7eccb",
+            "value": "dd665abf",
+            "answered": true,
+            "expired": false,
+            "user_id": "89d1f4e4-ae0f-11ed-9bd8-0242ac110002",
+            "question_id": "2b27adcc-0b7e-40c4-a430-8e0aa551ae3e"
+        },
+        {
+            "id": "f7435ce0-e2f7-4060-b410-7c4da1abc45d",
+            "value": "dd665abf",
+            "answered": true,
+            "expired": false,
+            "user_id": "89d1f534-ae0f-11ed-9bd8-0242ac110002",
+            "question_id": "2b27adcc-0b7e-40c4-a430-8e0aa551ae3e"
+        },
+        {
+            "id": "5febdab6-9874-4464-85d8-fcb0ad7686fd",
+            "value": "dd665abf",
+            "answered": true,
+            "expired": false,
+            "user_id": "89d1f58e-ae0f-11ed-9bd8-0242ac110002",
+            "question_id": "2b27adcc-0b7e-40c4-a430-8e0aa551ae3e"
+        },
+        {
+            "id": "341565d9-18e3-4d17-baf2-0d4d6d8e4fc8",
+            "value": "dd665abf",
+            "answered": true,
+            "expired": false,
+            "user_id": "89d1f5de-ae0f-11ed-9bd8-0242ac110002",
+            "question_id": "2b27adcc-0b7e-40c4-a430-8e0aa551ae3e"
+        },
+        {
+            "id": "dccfbd90-914d-4fea-83cf-54e288649bf8",
+            "value": "dd665abf",
+            "answered": true,
+            "expired": false,
+            "user_id": "89d1f638-ae0f-11ed-9bd8-0242ac110002",
+            "question_id": "2b27adcc-0b7e-40c4-a430-8e0aa551ae3e"
+        }
+    ],
+    "surveyquestionvalues": [
+        {
+            "id": "872c40f6-de27-4ff3-98c0-dd7cc0f3df57",
+            "question_id": "2b27adcc-0b7e-40c4-a430-8e0aa551ae3e",
+            "name": "Informatika",
+            "order": 1
+        },
+        {
+            "id": "5dee5260-7cd9-4433-b735-679871153205",
+            "question_id": "2b27adcc-0b7e-40c4-a430-8e0aa551ae3e",
+            "name": "Angličtina",
+            "order": 2
+        }
+    ]
+}
