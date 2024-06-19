@@ -1,132 +1,4 @@
 {
-    "surveyquestiontypes": [
-        {
-            "id": "ad0f53fb-240b-47de-ab1d-871bbde6f973",
-            "name": "Uzavřené"
-        },
-        {
-            "id": "949d74a2-63b1-4478-82f1-e025d8bc6c8b",
-            "name": "Otevřené"
-        }
-    ],
-
-    "survey_answer_types": [
-        {
-            "id": "",
-            "value": "zcela nesouhlasím"
-        },
-        {
-            "id": "",
-            "value": "spíše nesouhlasím"
-        },
-        {
-            "id": "",
-            "value": "mám neutrální postoj"
-        },
-        {
-            "id": "",
-            "value": "spíše souhlasím"
-        },
-        {
-            "id": "",
-            "value": "zcela souhlasím"
-        }
-    ],
-
-    "surveyquestions": [
-        {
-            "id": "f67b02ed-1f84-45b1-a17f-62235922bf18",
-            "question": "Absolvování tohoto předmětu bylo pro mně přínosné",
-            "order": 1,
-            "survey_id": "",
-            "survey_question_type_id": "ad0f53fb-240b-47de-ab1d-871bbde6f973"
-        },
-        {
-            "id": "f22911d9-3f65-4d33-8414-5bbc3b41ea45",
-            "question": "Vyučující byli schopni vyysvětlit danou problematiku",
-            "order": 2,
-            "survey_id": "",
-            "survey_question_type_id": "ad0f53fb-240b-47de-ab1d-871bbde6f973"
-        },
-        {
-            "id": "830a322f-3757-40fd-beb5-543893c3cb3d",
-            "question": "Probíraná látka se neopakovala s již dříve vyučovaným předmětem",
-            "order": 3,
-            "survey_id": "",
-            "survey_question_type_id": "ad0f53fb-240b-47de-ab1d-871bbde6f973"
-        },
-        {
-            "id": "4bb84608-55fd-45bd-ba71-67905b0f9125",
-            "question": "Vyučující byli ochotní komunikovat se studenty, odpovídat na dotazy, poskytovat konzultace",
-            "order": 4,
-            "survey_id": "",
-            "survey_question_type_id": "ad0f53fb-240b-47de-ab1d-871bbde6f973"
-        },
-        {
-            "id": "baac93ba-c3f6-4db8-8942-7600e9181d18",
-            "question": "Vyučující na první hodině jasně stanovili požadavky na zápočet/zkoušku",
-            "order": 5,
-            "survey_id": "",
-            "survey_question_type_id": "ad0f53fb-240b-47de-ab1d-871bbde6f973"
-        },
-        {
-            "id": "4e6d3fc5-4126-463a-a496-0f18aef3e8cc",
-            "question": "Vyučující mi poskytovali zpětnou vazbu (komentáře, připomínky) k zadávaným úkolům",
-            "order": 6,
-            "survey_id": "",
-            "survey_question_type_id": "ad0f53fb-240b-47de-ab1d-871bbde6f973"
-        },
-        {
-            "id": "d2098aa1-3d38-47ee-8cc5-23e9129cac0a",
-            "question": "Vyučující připravili přednášky/cvičení (semináře) kvalitně a dobře",
-            "order": 7,
-            "survey_id": "",
-            "survey_question_type_id": "ad0f53fb-240b-47de-ab1d-871bbde6f973"
-        },
-        {
-            "id": "bfdc950b-33be-4da6-a179-5a17c99a2d6a",
-            "question": "Vyučující dodržovali pravidla pro hodnocení a organizaci výuky stanovené na začátku semestru",
-            "order": 8,
-            "survey_id": "",
-            "survey_question_type_id": "ad0f53fb-240b-47de-ab1d-871bbde6f973"
-        },
-        {
-            "id": "a4311136-a38f-4280-92bc-efb0458eed03",
-            "question": "Pro studium předmětu jsem měl/a k dispozici kvalitní studijní zdroje",
-            "order": 9,
-            "survey_id": "",
-            "survey_question_type_id": "ad0f53fb-240b-47de-ab1d-871bbde6f973"
-        },
-        {
-            "id": "b4311146-a38f-4280-92bc-efb0458eed03",
-            "question": "Zde uveďte Vaše další připomínky a náměty ke studijnímu předmětu nebo vyučujícímu, které jste nemohli vyjádřit v rámci výše uvedených výroků, resp. které považujete za potřebné rozvést.",
-            "order": 10,
-            "survey_id": "",
-            "survey_question_type_id": "949d74a2-63b1-4478-82f1-e025d8bc6c8b"
-        }
-    ],
-
-    "surveyanswers_closed": [
-        {
-            "id": "",
-            "value_id": "",
-            "answered": false,
-            "expired": false,
-            "user_id": "",
-            "question_id": ""
-        }
-    ],
-    "surveyanswers_open": [
-        {
-            "id": "",
-            "value": "",
-            "answered": false,
-            "expired": false,
-            "user_id": "",
-            "question_id": ""
-        }
-    ],
-
     "users": [
         {
             "id": "2d9dc5ca-a4a2-11ed-b9df-0242ac120003",
@@ -215,290 +87,109 @@
         }
 
     ],
-    "groups": [
-        {
-            "id": "2d9dcd22-a4a2-11ed-b9df-0242ac120003",
-            "name": "Uni",
-            "lastchange": "2023-04-19T17:27:12",
-            "valid": true,
-            "grouptype_id": "cd49e152-610c-11ed-9f29-001a7dda7110",
-            "mastergroup_id": null
-        },
-        {
-            "id": "2d9dced0-a4a2-11ed-b9df-0242ac120003",
-            "name": "Fac",
-            "lastchange": "2023-04-19T17:27:12",
-            "valid": true,
-            "grouptype_id": "cd49e153-610c-11ed-bf19-001a7dda7110",
-            "mastergroup_id": "2d9dcd22-a4a2-11ed-b9df-0242ac120003"
-        },
-        {
-            "id": "2d9dd1c8-a4a2-11ed-b9df-0242ac120003",
-            "name": "Dep",
-            "lastchange": "2023-04-19T17:27:12",
-            "valid": true,
-            "grouptype_id": "cd49e155-610c-11ed-844e-001a7dda7110",
-            "mastergroup_id": "2d9dced0-a4a2-11ed-b9df-0242ac120003"
-        },
-        {
-            "id": "2d9dd2ea-a4a2-11ed-b9df-0242ac120003",
-            "name": "St",
-            "lastchange": "2023-04-19T17:27:12",
-            "valid": true,
-            "grouptype_id": "cd49e157-610c-11ed-9312-001a7dda7110",
-            "mastergroup_id": "2d9dced0-a4a2-11ed-b9df-0242ac120003"
-        },
-        {
-            "id": "9baf3b54-ae0f-11ed-9bd8-0242ac110002", 
-            "name": "22-5KB-A",
-            "lastchange": "2023-04-19T17:27:12",
-            "valid": true,
-            "grouptype_id": "cd49e157-610c-11ed-9312-001a7dda7110",
-            "mastergroup_id": "2d9dced0-a4a2-11ed-b9df-0242ac120003"
-        },
-        {
-            "id": "9baf3d70-ae0f-11ed-9bd8-0242ac110002", 
-            "name": "22-5KB-B",
-            "lastchange": "2023-04-19T17:27:12",
-            "valid": true,
-            "grouptype_id": "cd49e157-610c-11ed-9312-001a7dda7110",
-            "mastergroup_id": "2d9dced0-a4a2-11ed-b9df-0242ac120003"
-        },
-        {
-            "id": "9baf3de8-ae0f-11ed-9bd8-0242ac110002", 
-            "name": "22-5KB-C",
-            "lastchange": "2023-04-19T17:27:12",
-            "valid": true,
-            "grouptype_id": "cd49e157-610c-11ed-9312-001a7dda7110",
-            "mastergroup_id": "2d9dced0-a4a2-11ed-b9df-0242ac120003"
-        },
-        {
-            "id": "9baf3e42-ae0f-11ed-9bd8-0242ac110002", 
-            "name": "22-5KB-D",
-            "lastchange": "2023-04-19T17:27:12",
-            "valid": true,
-            "grouptype_id": "cd49e157-610c-11ed-9312-001a7dda7110",
-            "mastergroup_id": "2d9dced0-a4a2-11ed-b9df-0242ac120003"
-        },
-        {
-            "id": "9baf3e92-ae0f-11ed-9bd8-0242ac110002", 
-            "name": "22-5KB-E",
-            "lastchange": "2023-04-19T17:27:12",
-            "valid": true,
-            "grouptype_id": "cd49e157-610c-11ed-9312-001a7dda7110",
-            "mastergroup_id": "2d9dced0-a4a2-11ed-b9df-0242ac120003"
-        },
-        {
-            "id": "9baf3eec-ae0f-11ed-9bd8-0242ac110002", 
-            "name": "22-5KB-F",
-            "lastchange": "2023-04-19T17:27:12",
-            "valid": true,
-            "grouptype_id": "cd49e157-610c-11ed-9312-001a7dda7110",
-            "mastergroup_id": "2d9dced0-a4a2-11ed-b9df-0242ac120003"
-        },
-        {
-            "id": "9baf3f3c-ae0f-11ed-9bd8-0242ac110002", 
-            "name": "22-5KB-G",
-            "lastchange": "2023-04-19T17:27:12",
-            "valid": true,
-            "grouptype_id": "cd49e157-610c-11ed-9312-001a7dda7110",
-            "mastergroup_id": "2d9dced0-a4a2-11ed-b9df-0242ac120003"
-        },
-        {
-            "id": "9baf3f96-ae0f-11ed-9bd8-0242ac110002", 
-            "name": "22-5KB-H",
-            "lastchange": "2023-04-19T17:27:12",
-            "valid": true,
-            "grouptype_id": "cd49e157-610c-11ed-9312-001a7dda7110",
-            "mastergroup_id": "2d9dced0-a4a2-11ed-b9df-0242ac120003"
-        },
-        {
-            "id": "9baf3fe6-ae0f-11ed-9bd8-0242ac110002", 
-            "name": "22-5KB-I",
-            "lastchange": "2023-04-19T17:27:12",
-            "valid": true,
-            "grouptype_id": "cd49e157-610c-11ed-9312-001a7dda7110",
-            "mastergroup_id": "2d9dced0-a4a2-11ed-b9df-0242ac120003"
-        },
-        {
-            "id": "9baf4040-ae0f-11ed-9bd8-0242ac110002", 
-            "name": "22-5KB-J",
-            "lastchange": "2023-04-19T17:27:12",
-            "valid": true,
-            "grouptype_id": "cd49e157-610c-11ed-9312-001a7dda7110",
-            "mastergroup_id": "2d9dced0-a4a2-11ed-b9df-0242ac120003"
-        },
-        {
-            "id": "480f2802-a869-11ed-924c-0242ac110002",
-            "name": "správa",
-            "lastchange": "2023-04-19T17:27:12",
-            "valid": true,
-            "grouptype_id": "cd49e157-610c-11ed-9312-001a7dda7110",
-            "mastergroup_id": "2d9dced0-a4a2-11ed-b9df-0242ac120003"
-        }
-    ],
+   
 
-    "roles": [
+    "surveyquestiontypes": [
+        {"id": "ad0f53fb-240b-47de-ab1d-871bbde6f973", "name": "Uzavřené"},
+        {"id": "949d74a2-63b1-4478-82f1-e025d8bc6c8b", "name": "Otevřené"},
+        {"id": "2a6a1731-1efa-4644-a1d8-5848e4b29ce5", "name": "Škála"}
+    ],
+   "surveys": [
+        {"id": "910d54a9-7f2e-41ca-b811-3c600ef82fda", "name": "Studentské hodnocení 2022" }
+    ],
+    "surveytypes": [
+        {"id": "712029b6-2dbc-4952-9d3e-e897899edf0a", "name": "Kvalita výuky"}
+    ],
+    "surveyquestions": [
         {
-            "id": "7cea8802-a4a2-11ed-b9df-0242ac120003",
+            "id": "5b7e4ae7-9bb9-4e2f-829b-c2763ac1092e",
+            "name": "Jak hodnotíte předmět xy",
+            "order": 1,
+            "lastchange": "2023-04-19T17:27:12",
+            "survey_id": "910d54a9-7f2e-41ca-b811-3c600ef82fda",
+            "type_id": "2a6a1731-1efa-4644-a1d8-5848e4b29ce5"
+        },  
+        {
+            "id": "984120da-ab92-44bd-9389-5f47ed9b3225",
+            "name": "Jak hodnotíte výuku předmětu xy",
+            "order": 2,
+            "lastchange": "2023-04-19T17:27:12",
+            "survey_id": "910d54a9-7f2e-41ca-b811-3c600ef82fda",
+            "type_id": "949d74a2-63b1-4478-82f1-e025d8bc6c8b"
+        },  
+        {
+            "id": "2b27adcc-0b7e-40c4-a430-8e0aa551ae3e",
+            "name": "Který předmět považujete za nejvíc přínosný?",
+            "order": 3,
+            "lastchange": "2023-04-19T17:27:12",
+            "survey_id": "910d54a9-7f2e-41ca-b811-3c600ef82fda",
+            "type_id": "ad0f53fb-240b-47de-ab1d-871bbde6f973"
+        }
+    ],
+    "surveyanswers": [
+        {
+            "id": "ad0f53fb-240b-47de-ab1d-871bbde6f972",
+            "value": "8",
+            "aswered": true,
+            "expired": false,
             "user_id": "2d9dc5ca-a4a2-11ed-b9df-0242ac120003",
-            "group_id": "2d9dcd22-a4a2-11ed-b9df-0242ac120003",
-            "roletype_id": "ae3f0d74-6159-11ed-b753-0242ac120003",
-            "startdate": "2023-04-19T17:27:12",
-            "enddate": "2023-04-19T17:27:12",
-            "valid": true
-        }
-    ],
-    "memberships": [
+            "question_id": "5b7e4ae7-9bb9-4e2f-829b-c2763ac1092e"
+        },
         {
-            "id": "7cea8596-a4a2-11ed-b9df-0242ac120003",
+            "id": "dd7dc78f-534d-4c33-a979-2dfd41a53a84",
+            "value": "OK",
+            "aswered": true,
+            "expired": false,
             "user_id": "2d9dc5ca-a4a2-11ed-b9df-0242ac120003",
-            "group_id": "2d9dcd22-a4a2-11ed-b9df-0242ac120003",
-            "valid": true
+            "question_id": "984120da-ab92-44bd-9389-5f47ed9b3225"
+        },
+        {
+            "id": "bb0cd1b9-15ba-4f80-a6a0-7a9dc65deb13",
+            "value": "Analýza informačních zdrojů",
+            "aswered": true,
+            "expired": false,
+            "user_id": "2d9dc5ca-a4a2-11ed-b9df-0242ac120003",
+            "question_id": "2b27adcc-0b7e-40c4-a430-8e0aa551ae3e"
+        },
+        
+        {
+            "id": "e054d1a5-f259-429d-9f7a-f35d55caf2ab",
+            "value": null,
+            "aswered": false,
+            "expired": false,
+            "user_id": "2d9dc868-a4a2-11ed-b9df-0242ac120003",
+            "question_id": "5b7e4ae7-9bb9-4e2f-829b-c2763ac1092e"
+        },
+        {
+            "id": "600a7008-44b6-46e9-a546-d934731a0603",
+            "value": null,
+            "aswered": true,
+            "expired": false,
+            "user_id": "2d9dc868-a4a2-11ed-b9df-0242ac120003",
+            "question_id": "984120da-ab92-44bd-9389-5f47ed9b3225"
+        },
+        {
+            "id": "ed33c145-c295-41c2-be49-5037837ee974",
+            "value": null,
+            "aswered": true,
+            "expired": false,
+            "user_id": "2d9dc868-a4a2-11ed-b9df-0242ac120003",
+            "question_id": "2b27adcc-0b7e-40c4-a430-8e0aa551ae3e"
         }
     ],
-    "grouptypes": [
+    "surveyquestionvalues": [
         {
-            "name": "univerzita",
-            "name_en": "university",
-            "ex_type": "100",
-            "id": "cd49e152-610c-11ed-9f29-001a7dda7110"
+            "id": "872c40f6-de27-4ff3-98c0-dd7cc0f3df57", 
+            "question_id": "2b27adcc-0b7e-40c4-a430-8e0aa551ae3e",
+            "name": "Informatika",
+            "order": 1
         },
         {
-            "name": "fakulta",
-            "name_en": "faculty",
-            "ex_type": "300",
-            "id": "cd49e153-610c-11ed-bf19-001a7dda7110"
-        },
-        {
-            "name": "ústav",
-            "name_en": "institute",
-            "ex_type": "400",
-            "id": "cd49e154-610c-11ed-bdbf-001a7dda7110"
-        },
-        {
-            "name": "centrum",
-            "name_en": "centre",
-            "ex_type": "410",
-            "id": "cd49e155-610c-11ed-bdbf-001a7dda7110"
-        },
-        {
-            "name": "katedra",
-            "name_en": "department",
-            "ex_type": "500",
-            "id": "cd49e155-610c-11ed-844e-001a7dda7110"
-        },
-        {
-            "name": "oddělení",
-            "name_en": "section",
-            "ex_type": "600",
-            "id": "cd49e156-610c-11ed-87ef-001a7dda7110"
-        },
-        {
-            "name": "studijní skupina",
-            "name_en": "study group",
-            "ex_type": "001",
-            "id": "cd49e157-610c-11ed-9312-001a7dda7110"
-        },
-        {
-            "name": "stalý stav",
-            "name_en": "all teachers",
-            "ex_type": "200",
-            "id": "cd49e157-610c-11ed-9f29-001a7dda7110"
-        },
-        {
-            "name": "studenti",
-            "name_en": "all students",
-            "ex_type": "002",
-            "id": "0eb35718-615b-11ed-b753-0242ac120003"
-        },
-        {
-            "id": "b1bedec8-931f-11ed-9b95-0242ac110002",
-            "name": "garance programu",
-            "name_en": "program grants"
-        },
-        {
-            "id": "b1bedf72-931f-11ed-9b95-0242ac110002",
-            "name": "garance předmětu",
-            "name_en": "subject grants"
+            "id": "5dee5260-7cd9-4433-b735-679871153205", 
+            "question_id": "2b27adcc-0b7e-40c4-a430-8e0aa551ae3e",
+            "name": "Angličtina",
+            "order": 2
         }
-    ],
-    "roletypes": [
-        {
-            "name": "já",
-            "name_en": "myself",
-            "id": "05a3e0f5-f71e-4caa-8012-229d868aa8ca",
-            "category_id": "fd73596b-1043-46f0-837a-baa0734d64df"
-        },
-        {
-            "name": "rektor",
-            "name_en": "rector",
-            "id": "ae3f0d74-6159-11ed-b753-0242ac120003",
-            "category_id": "fd73596b-1043-46f0-837a-baa0734d64df"
-        },
-        {
-            "name": "prorektor",
-            "name_en": "vicerector",
-            "id": "ae3f2886-6159-11ed-b753-0242ac120003",
-            "category_id": "fd73596b-1043-46f0-837a-baa0734d64df"
-        },
-        {
-            "name": "děkan",
-            "name_en": "dean",
-            "id": "ae3f2912-6159-11ed-b753-0242ac120003",
-            "category_id": "fd73596b-1043-46f0-837a-baa0734d64df"
-        },
-        {
-            "name": "proděkan",
-            "name_en": "vicedean",
-            "id": "ae3f2980-6159-11ed-b753-0242ac120003",
-            "category_id": "fd73596b-1043-46f0-837a-baa0734d64df"
-        },
-        {
-            "name": "vedoucí katedry",
-            "name_en": "head of department",
-            "id": "ae3f29ee-6159-11ed-b753-0242ac120003",
-            "category_id": "fd73596b-1043-46f0-837a-baa0734d64df"
-        },
-        {
-            "name": "vedoucí učitel",
-            "name_en": "leading teacher",
-            "id": "ae3f2a5c-6159-11ed-b753-0242ac120003",
-            "category_id": "fd73596b-1043-46f0-837a-baa0734d64df"
-        },
-        {
-            "name": "garant",
-            "name_en": "grant",
-            "id": "5f0c247e-931f-11ed-9b95-0242ac110002",
-            "category_id": "fd73596b-1043-46f0-837a-baa0734d64df"
-        },
-        {
-            "name": "garant (zástupce)",
-            "name_en": "grant (deputy)",
-            "id": "5f0c2532-931f-11ed-9b95-0242ac110002",
-            "category_id": "fd73596b-1043-46f0-837a-baa0734d64df"
-        },
-        {
-            "name": "garant předmětu",
-            "name_en": "subject's grant",
-            "id": "5f0c255a-931f-11ed-9b95-0242ac110002",
-            "category_id": "fd73596b-1043-46f0-837a-baa0734d64df"
-        },
-        {
-            "name": "přednášející",
-            "name_en": "lecturer",
-            "id": "5f0c2578-931f-11ed-9b95-0242ac110002",
-            "category_id": "fd73596b-1043-46f0-837a-baa0734d64df"
-        },
-        {
-            "name": "cvičící",
-            "name_en": "trainer",
-            "id": "5f0c2596-931f-11ed-9b95-0242ac110002",
-            "category_id": "fd73596b-1043-46f0-837a-baa0734d64df"
-        }
-    ],
-    "rolecategories": [
-        { "id": "fd73596b-1043-46f0-837a-baa0734d64df", "name": "academic" }
     ]
 
 }
