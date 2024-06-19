@@ -1,0 +1,8 @@
+README.md
+setup.py
+Surveysgen.egg-info/PKG-INFO
+Surveysgen.egg-info/SOURCES.txt
+Surveysgen.egg-info/dependency_links.txt
+Surveysgen.egg-info/entry_points.txt
+Surveysgen.egg-info/requires.txt
+Surveysgen.egg-info/top_level.txt

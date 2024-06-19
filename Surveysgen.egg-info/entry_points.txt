@@ -1,0 +1,3 @@
+[console_scripts]
+generate-data = Surveysgen.generator_old
+import-data = Surveysgen.gql_endpoint
