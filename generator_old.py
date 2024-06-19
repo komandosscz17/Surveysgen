@@ -3,8 +3,12 @@ import random
 import uuid
 
 # Load data from the file data_deprecated.json
-with open('data_deprecated.json', 'r', encoding='utf-8') as f:
+with open('systemdata_Surveys.json', 'r', encoding='utf-8') as f:
     data = json.load(f)
+
+# Load user data from the file users.json
+with open('systemdata_Users.json', 'r', encoding='utf-8') as f:
+    user_data = json.load(f)
 
 # Initialize new data structure
 new_data = {
@@ -38,9 +42,9 @@ if 'surveyquestions' in new_data:
             else:
                 new_value = str(uuid.uuid4())[:8]
             
-            # Create a new answer for each user
-            if 'users' in data:
-                for user in data['users']:
+            # Create a new answer for each user from users.json
+            if 'users' in user_data:
+                for user in user_data['users']:
                     new_answer = {
                         "id": str(uuid.uuid4()),  # Generate a new unique ID for each answer
                         "value": new_value,
@@ -53,4 +57,4 @@ if 'surveyquestions' in new_data:
 
 # Save the new data to the file data2.json
 with open('data2.json', 'w', encoding='utf-8') as f:
-    json.dump(new_data, f, ensure_ascii=False, indent=4)
+    json.dump(new_data, f, ensure_ascii=False, indent=4) 

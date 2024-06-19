@@ -29,14 +29,7 @@ mutation = gql('''
         }
     }
 ''') 
-mutation = gql("""
-        mutation InsertSurveyAnswer($answer: SurveyAnswerInput!) {
-            insert_survey_answer(answer: $answer) {
-                id
-                message
-            }
-        }
-        """)
+
 
 async def import_data():
     async with client as session:
